@@ -8,13 +8,22 @@
 <body>
     <?php
 
-        //Variables
+        //Variable int
        $edad= 33;
+
+       //Variable sin definir
        $sueldo;
 
+        //Variable float
        $estatura= 1.75;
+
+        //Variable string
        $nombre="Pepe";
+       
+       //Variable string
        $apellido="Pepote";
+
+       //Variable booleana
        $Profesor=TRUE;
 
        echo "Tengo ". $edad ." años<br>";

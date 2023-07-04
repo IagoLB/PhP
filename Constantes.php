@@ -7,12 +7,13 @@
 </head>
 <body>
     <?php
-
+        //Primera forma de definir una constante
         const PI = 3.141592;       
         echo PI;
 
         echo "<br>";
 
+        //Segunda forma de definir una constante
         define("Dia","hoy");
         echo Dia
     ?>

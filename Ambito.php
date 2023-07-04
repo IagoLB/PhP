@@ -7,15 +7,18 @@
 </head>
 <body>
     <?php
-    
+
+        //Definimos una variable
         $numero=22;
 
+        // Creamos la funcion prueba
         function prueba(){
             global $numero;
             echo $numero;
 
         }
-
+        
+        //Invocamos la funcion prueba
         prueba()
     ?>
 </body>

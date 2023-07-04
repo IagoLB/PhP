@@ -8,9 +8,12 @@
 <body>
     <?php
 
+        //Definimos una serie de arrays
         $dias=array("L","M","M","J","V","S","D");
         $temperatura= [10,20,30,40];
+        //Definimos que el array tendra 15 espacios pero no especificamos con que llenarlo
         $vacio= array(15);
+        //Definimos la creacion de un array sin concretar nada
         $datos= array();
 
         echo $dias[3];

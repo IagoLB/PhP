@@ -8,10 +8,12 @@
 <body>
     <?php
 
+    //Recogemos la variable nombre y la llamamos
     echo "Nombre: ". $_GET['nombre'];
 
     echo "<br>";
     
+    //Recogemos la variable cargo y la invocamos
     echo "cargo: ". $_GET['cargo'];
     ?>
 </body>
