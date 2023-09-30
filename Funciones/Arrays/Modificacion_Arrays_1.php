@@ -11,27 +11,27 @@
         //Funciones de arrays
 
         $nombres=["Xiao","Ganyu","Ayaka","Orihime"];
-        echo "El array /$nombres sin modificar";
+        echo "El array \$nombres sin modificar";
         var_dump($nombres);
         echo "<p> </p>";
         echo "<br>";
 
         //array_shift — Quita un elemento del principio del array
         $eliminado=array_shift($nombres);
-        echo "El array /$nombres eliminando el 1º elemento";
+        echo "El array \$nombres eliminando el 1º elemento";
         var_dump($nombres);
         echo "<p> </p>";
         echo "<br>";
 
         //Se ha guardado el elemento eliminado en la variable $eliminado
-        echo "El elemento eliminado de nombres";
+        echo "El elemento eliminado de \$nombres";
         var_dump($eliminado);
         echo "<p> </p>";
         echo "<br>";
 
         //array_unshift — Añadir al inicio de un array uno a más elementos
         array_unshift($nombres, "Zhongli");
-        echo "El array nombres con el añadido de Zhongli";
+        echo "El array \$nombres con el añadido de Zhongli";
         var_dump($nombres);
         echo "<p> </p>";
         echo "<br>";
